@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../vue.js">
+        var dContent = {
+            message: 'Is this OK?'
+        }
+        new Vue({
+        el: '#vueI',
+        data: {
+            message: dContent
+        }
+    })
+        $('#vueI').show()
+    </script>
+
+</head>
+<body>
+<div id="vueI">
+  {{ message }}
+</div>
+</body>
+</html>
